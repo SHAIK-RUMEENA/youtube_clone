@@ -1,0 +1,49 @@
+.sidebar{
+    width:240px;
+    padding:8px 0;
+    border-right:1px solid grey;
+    height:(100% - 56px);
+    
+}
+.sidebar-section{
+    border-bottom:1px solid grey;
+    padding :8px 0;
+}
+p{
+    font-weight: 500;
+    color: black;
+}
+.Sidebar-item{
+   display:flex;
+   align-items:center;
+   gap:24px;
+   padding:8px 24px;
+   font-size:14px;
+ 
+}
+.signin{
+    padding:8px 24px;
+}
+h4{
+    display:flex;
+   align-items:center;
+    padding:8px 24px;
+    color: rgb(103, 106, 108);
+   
+}
+.youtube-icon{
+    color: rgb(241, 57, 57);
+}
+.button{
+    color: green;
+}
+.Account{
+    color: chartreuse;
+}
+.Sidebar-item.active{
+    font-weight: bold;
+    background-color: gainsboro;
+}
+.Sidebar-item:hover{
+    background-color: gainsboro;
+}

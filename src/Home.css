@@ -1,0 +1,70 @@
+.home-container{
+    padding:20px;
+    text-align:center;
+    width: 100%;
+    background-color: black;
+}
+.home-title{
+    color:#ff0000;
+    font-size: 32px;
+    
+    background-color: antiquewhite;
+    
+
+}
+.video{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:40px;
+    background-color: azure;
+    padding-left: 20px ;
+    padding-bottom: 20px;
+    padding-top: 20px;
+   
+}
+
+
+.videocard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  justify-content: space-between;
+  background-color: black;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  width: 340px;
+  padding: 20px;
+  gap: 12px;
+  box-shadow: 2px 6px rgb(213, 145, 145);
+  overflow: hidden;
+  color: aliceblue;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.Play{
+    margin-top: 10px;
+    padding:10px 15px;
+    text-decoration: none;
+    background-color: rgb(90, 188, 177);
+    border-radius: 10px;
+    width:70px;
+    text-align: center;
+}
+
+.videocard img{
+    height: 160px;
+    object-fit: cover;
+    width: 100%;
+    border: rgb(172, 169, 169);
+    border-radius: 10px;
+    border-style:groove;
+}
+
+
+.videocard:hover {
+  transform: scale(1.05); /* slightly enlarge */
+  box-shadow: 4px 8px 20px rgba(0, 0, 0, 0.5); /* deeper shadow */
+  border-color: cyan; /* highlight border */
+  cursor: pointer;
+}
