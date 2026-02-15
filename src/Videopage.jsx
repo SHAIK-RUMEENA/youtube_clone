@@ -10,9 +10,9 @@ export default function Videopage(){
     const {id}=useParams();
     const videopage ={
         1:{url:"https://www.youtube.com/embed/z6FukwueP1o?si=XfaN70wDiNnHoj3N"},
-        2:"https://www.youtube.com/embed/yIzCBU0_LyY?si=4bqe6yJT7hWgPr7O",
-        3:"https://www.youtube.com/embed/Q_cq8__k--M?si=wBjLAswJnw9WBRwe",
-        4:"https://www.youtube.com/embed/M8ichCVyxhQ?si=YZaW5xz8dkxYIumd"
+        2:{url:"https://www.youtube.com/embed/yIzCBU0_LyY?si=4bqe6yJT7hWgPr7O"},
+        3:{url:"https://www.youtube.com/embed/Q_cq8__k--M?si=wBjLAswJnw9WBRwe"},
+        4:{url:"https://www.youtube.com/embed/M8ichCVyxhQ?si=YZaW5xz8dkxYIumd"},
     }
     const name={
         1:"Kisi Ki Muskurahaton Pe (HD) - Anari | Mukesh Karaoke Songs | Raj Kapoor | Evergreen ‪@filmigaane‬",
